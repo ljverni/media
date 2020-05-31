@@ -297,4 +297,3 @@ articles_bydate1 = Plotter(df_covid.unstack(), f"Articles by day - Covid-19")
 articles_bydate1.line_plotter(default_colors)
 
 plt.subplots_adjust(hspace=0.4)
-plt.show()
