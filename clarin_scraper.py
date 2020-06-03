@@ -191,4 +191,5 @@ print(log)
 
 with open(f"local_repo\media\clarin\data_files\clarinlog.txt", "a+") as log_file:
     log_file.write("\n------------------------\n")
+    log_file.write(log)
 

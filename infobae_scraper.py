@@ -214,3 +214,4 @@ print(log)
 
 with open(f"local_repo\media\infobae\data_files\infobaelog.txt", "a+") as log_file:
     log_file.write("\n------------------------\n")
+    log_file.write(log)
